@@ -14,8 +14,8 @@ server {
   # The host name to respond to
   server_name blopker.com;
 
-  access_log  /home/gouda/logs/blopker.access.log main;
-  error_log /home/gouda/logs/blopker.error.log error;
+  access_log  /home/static/logs/blopker.access.log main;
+  error_log /home/static/logs/blopker.error.log error;
 
   # Path for static files
   root /home/static/production/blopker.com;
