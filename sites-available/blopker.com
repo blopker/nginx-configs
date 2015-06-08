@@ -1,6 +1,6 @@
 server {
-  listen [::]:80 deferred; # for Linux
-  listen 80 deferred; # for Linux
+  listen [::]:80;
+  listen 80;
 
   server_name www.blopker.com;
 
@@ -8,8 +8,8 @@ server {
 }
 
 server {
-  listen [::]:80 deferred; # for Linux
-  listen 80 deferred; # for Linux
+  listen [::]:80;
+  listen 80;
 
   # The host name to respond to
   server_name blopker.com;
