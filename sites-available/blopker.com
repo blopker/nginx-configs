@@ -18,7 +18,7 @@ server {
   error_log /home/static/logs/blopker.error.log error;
 
   # Path for static files
-  root /home/static/production/blopker.com;
+  root /home/static/public/production/blopker.com;
 
   # Specify a charset
   charset utf-8;
